@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>DevScan — Website Health Check</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { background: linear-gradient(180deg,#0f172a 0%, #071032 100%); }
+  </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-6">
+  <div id="card" class="w-full max-w-3xl bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 shadow-2xl">
+    <h1 class="text-2xl font-bold text-white mb-2">DevScan — Website Health Check</h1>
+    <p class="text-sm text-white/70 mb-4">Paste a website URL you own and run a quick security & performance snapshot.</p>
+    <div class="flex gap-2 mb-4">
+      <input id="url" class="flex-1 p-3 rounded-lg bg-white/10 border border-white/5 text-white" placeholder="https://example.com">
+      <button id="scan" class="px-4 py-3 rounded-lg bg-emerald-500 text-white font-semibold">Run Scan</button>
+      <button id="screenshot" class="px-4 py-3 rounded-lg bg-sky-500 text-white font-semibold">Download Report</button>
+    </div>
+    <div id="result" class="text-white/90 max-h-[400px] overflow-auto"></div>
+    <div class="mt-4 text-sm text-white/60">
+      <p>Tip: Download the report to save or share the scan results.</p>
+    </div>
+  </div>
+  <script src="/static/js/main.js"></script>
+</body>
+</html>

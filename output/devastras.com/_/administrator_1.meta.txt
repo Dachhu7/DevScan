@@ -1,0 +1,10 @@
+- No X-Frame-Options (clickjacking possible)
+- Server banner: GitHub.com
+
+Saved Headers:
+Content-Type: text/html; charset=utf-8
+Content-Length: 5254
+Server: GitHub.com
+ETag: W/"64d39a40-24a3"
+
+-- End metadata --

@@ -1,0 +1,6 @@
+aiohttp>=3.10.0
+aiofiles==23.1.0
+beautifulsoup4==4.12.2
+requests==2.31.0
+flask==2.3.3
+Jinja2==3.1.2

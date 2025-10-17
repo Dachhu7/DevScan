@@ -1,0 +1,13 @@
+- Publicly Accessible Resource
+- No CSP header (possible XSS risk)
+- No X-Frame-Options (clickjacking possible)
+- Server banner: GitHub.com
+
+Saved Headers:
+Content-Type: text/html; charset=utf-8
+Content-Length: 12513
+Server: GitHub.com
+Last-Modified: Wed, 13 Aug 2025 07:35:04 GMT
+ETag: W/"689c4028-d2c1"
+
+-- End metadata --
